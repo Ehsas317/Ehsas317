@@ -1,8 +1,21 @@
-# Sashe — Building Local-First AI Systems
+# Ehsas Sethi — Building Local-First AI Systems
 
 **Edge AI · Apple Silicon · Python Systems**
 
 I design agentic AI orchestration systems that run entirely on local hardware. No cloud dependencies, no API keys, no data leaving your machine. Just pure silicon doing intelligent work.
+
+---
+
+## About Me
+
+| | |
+|---|---|
+| **Name** | Ehsas Sethi |
+| **Born** | 3 January 2007 |
+| **Hometown** | Abohar, Punjab, India |
+| **Education** | B.E. Computer Engineering, Thapar Institute of Engineering & Technology (TIET), Patiala — Batch of 2030 |
+
+A small-town kid from Abohar with a deep obsession for clean architecture, zero-bloat systems, and making AI run where it matters most — on your own hardware.
 
 ---
 
