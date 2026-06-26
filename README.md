@@ -18,13 +18,13 @@ Just pure silicon doing intelligent work.
 
 ---
 
-## The Evolution of Brain Loader
+## The Evolution of the AI Build Engine
 
-Brain Loader is my main project — an AI orchestration framework I've been
+The AI Build Engine is my main project — an orchestration framework I've been
 iterating on through 6 major versions. Each version represents a distinct
 architectural philosophy:
 
-### [brain-loader-v6](https://github.com/Ehsas317/brain-loader-v6) — Visual Mesh (Latest)
+### [mesh](https://github.com/Ehsas317/brain-loader-v6) — Visual Mesh (Latest)
 
 A no-code AI orchestration platform using Docker, Ollama, Dify, and open-source tools.
 The convergence of everything learned across 6 versions into a visual, distributed mesh.
@@ -48,7 +48,7 @@ License:       MIT
 
 ---
 
-### [brain-loader-v5](https://github.com/Ehsas317/brain-loader-v5) — Lazy Conductor
+### [ladder](https://github.com/Ehsas317/brain-loader-v5) — Lazy Conductor
 
 The convergence of everything learned across 5 versions. Combines the
 **Ponytail minimal-code philosophy** with **Trio structured concurrency** to
@@ -77,9 +77,9 @@ License:       MIT
 
 ---
 
-### [brain-loader-v4](https://github.com/Ehsas317/brain-loader-v4) — Multi-Backend Orchestrator
+### [surge](https://github.com/Ehsas317/brain-loader-v4) — Multi-Backend Orchestrator
 
-Where Brain Loader went from local-only to hybrid cloud+local. The big shift
+Where the engine went from local-only to hybrid cloud+local. The big shift
 from sequential to **wave-based parallel dispatch**.
 
 - **Wave Engine**: Brain plans a wave of 2-5 parallel tasks instead of
@@ -100,7 +100,7 @@ License:       MIT
 
 ---
 
-### [brain-loader-v3](https://github.com/Ehsas317/brain-loader-v3) — Portable Local Orchestrator
+### [port](https://github.com/Ehsas317/brain-loader-v3) — Portable Local Orchestrator
 
 The breakthrough: replacing the coordinator LLM with **pure Python**.
 This freed ~4GB of RAM for the KV cache — the difference between fitting a
@@ -127,7 +127,7 @@ License:       MIT
 
 ---
 
-### [brain-loader-v2](https://github.com/Ehsas317/brain-loader-v2) — Sequential Orchestration
+### [relay](https://github.com/Ehsas317/brain-loader-v2) — Sequential Orchestration
 
 The coordinator-as-resident-model architecture. A small coordinator LLM
 stays permanently loaded, managing the hot-swap of larger brain and
@@ -154,7 +154,7 @@ License:       MIT
 
 ---
 
-### [brain-loader](https://github.com/Ehsas317/brain-loader) — The Original (v1)
+### [forge](https://github.com/Ehsas317/brain-loader) — The Original (v1)
 
 Where it all started. A Brain LLM (8B) plans complex projects, delegates to
 specialized worker models (15B/7B), and iteratively reviews their work until
@@ -265,7 +265,7 @@ Python Tooling
 
 I believe local-first AI isn't a compromise — it is a design choice that
 unlocks privacy, latency, and cost advantages cloud AI can't match. Every
-version of Brain Loader has been a step toward making local AI systems as
+version of the engine has been a step toward making local AI systems as
 capable and easy to use as their cloud counterparts, while using a fraction
 of the resources.
 
