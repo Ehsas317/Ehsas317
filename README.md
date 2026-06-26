@@ -21,10 +21,34 @@ Just pure silicon doing intelligent work.
 ## The Evolution of Brain Loader
 
 Brain Loader is my main project — an AI orchestration framework I've been
-iterating on through 5 major versions. Each version represents a distinct
+iterating on through 6 major versions. Each version represents a distinct
 architectural philosophy:
 
-### [brain-loader-v5](https://github.com/Ehsas317/brain-loader-v5) — Lazy Conductor (Latest)
+### [brain-loader-v6](https://github.com/Ehsas317/brain-loader-v6) — Visual Mesh (Latest)
+
+A no-code AI orchestration platform using Docker, Ollama, Dify, and open-source tools.
+The convergence of everything learned across 6 versions into a visual, distributed mesh.
+
+- **6-layer Docker stack**: Ollama, Dify, PostgreSQL, Redis, Weaviate, n8n
+- **Universal Bot Gateway**: WhatsApp, Telegram, Discord integration
+- **Visual workflow builder**: Dify for no-code AI pipeline construction
+- **Custom Ollama personas**: Brain Planner, Coder, Critic, Researcher
+- **One-command setup**: `bash install.sh` deploys entire mesh
+- **Wave execution engine**: YAML-defined task waves with parallel dispatch
+- **Vector database**: Weaviate for semantic search and RAG
+- **Hybrid execution**: Local MLX/Ollama + Cloud APIs with auto-failover
+
+```yaml
+Architecture:  Docker Mesh + Dify Visual Workflows + Ollama Personas
+Stack:         Ollama, Dify, n8n, PostgreSQL, Redis, Weaviate
+Interfaces:    Web UI (Dify) + Bot Gateway (WhatsApp/Telegram/Discord)
+Deployment:    Docker Compose
+License:       MIT
+```
+
+---
+
+### [brain-loader-v5](https://github.com/Ehsas317/brain-loader-v5) — Lazy Conductor
 
 The convergence of everything learned across 5 versions. Combines the
 **Ponytail minimal-code philosophy** with **Trio structured concurrency** to
@@ -193,13 +217,17 @@ Local-First AI Architecture
   Deterministic coordination (pure Python over LLM bloat)
   Apple Silicon optimization (MLX framework, Metal GPU)
   Structured concurrency (Trio nurseries over asyncio fire-and-forget)
+  Docker containerization for distributed deployment
+  No-code AI workflow integration (Dify, n8n)
+  Vector search and RAG pipelines (Weaviate, ChromaDB)
 
 Systems Programming
   Pure Python state machines and event loops
   Async I/O & process lifecycle management
-  Vector embeddings & semantic search (ChromaDB)
+  Vector embeddings & semantic search (ChromaDB, Weaviate)
   Event-driven assistant architectures
   Circuit breaker patterns & graceful degradation
+  Shell scripting for automated deployment
 
 Python Tooling
   Modern packaging (pyproject.toml, setuptools)
@@ -213,10 +241,10 @@ Python Tooling
 
 ## Stack
 
-**Languages:** Python 3.11+ · YAML · Shell  
-**AI/ML:** MLX · Ollama · ChromaDB · Whisper.cpp · sentence-transformers  
-**Systems:** launchd · asyncio · Trio · multiprocessing · psutil  
-**Web:** Flask · python-telegram-bot · httpx  
+**Languages:** Python 3.11+ · YAML · Shell · Bash  
+**AI/ML:** MLX · Ollama · ChromaDB · Weaviate · Whisper.cpp · sentence-transformers  
+**Systems:** Docker · launchd · asyncio · Trio · multiprocessing · psutil  
+**Web:** Flask · Dify · python-telegram-bot · httpx · n8n  
 **Tools:** Git · Homebrew · ffmpeg · pyscenedetect · Rich  
 
 ---
@@ -235,7 +263,7 @@ Python Tooling
 > *"The best AI is the one that runs on your hardware, with your data,
 > under your control."*
 
-I believe local-first AI isn't a compromise — it's a design choice that
+I believe local-first AI isn't a compromise — it is a design choice that
 unlocks privacy, latency, and cost advantages cloud AI can't match. Every
 version of Brain Loader has been a step toward making local AI systems as
 capable and easy to use as their cloud counterparts, while using a fraction
