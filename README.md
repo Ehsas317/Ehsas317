@@ -6,6 +6,7 @@
 Born: 3 Jan 2007 · Abohar, Punjab, India
 Studying: B.E. Computer Engineering, Thapar Institute (TIET), Patiala — Batch of 2030
 Email: ehsassethi@gmail.com
+LinkedIn: linkedin.com/in/ehsassethi
 ```
 
 A small-town kid from Abohar with a deep obsession for clean architecture,
@@ -15,6 +16,12 @@ hardware, with your data, under your control.
 I build agentic AI orchestration systems that run entirely on local hardware.
 No cloud dependencies, no API keys, no data leaving your machine.
 Just pure silicon doing intelligent work.
+
+---
+
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ehsassethi)
 
 ---
 
@@ -275,4 +282,6 @@ of the resources.
   <i>Built with obsession for clean architecture and zero-bloat systems.</i>
   <br><br>
   <a href="mailto:ehsassethi@gmail.com">ehsassethi@gmail.com</a>
+  <br>
+  <a href="https://linkedin.com/in/ehsassethi">Connect on LinkedIn</a>
 </p>
