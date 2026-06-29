@@ -215,6 +215,21 @@ License:      MIT
 
 ---
 
+## Other Projects
+
+### [github-repo-finder](https://github.com/Ehsas317/github-repo-finder) — Production-Grade GitHub Repo Finder
+
+A project designed to build a **production-grade GitHub Repo Finder** that can be used as a Claude Skill, ChatGPT Skill, MCP Server, Standalone CLI, Python package, and API component. The system helps LLMs discover the best GitHub repositories while minimizing token usage and maximizing reliability.
+
+- **GitHub Search**: Advanced searching capabilities using GitHub's API.
+- **Ranking Engine**: A sophisticated ranking algorithm to score repositories based on various metrics.
+- **Token Optimization**: Strategies to minimize token usage for LLM interactions.
+- **Trending Repositories**: Identification of currently trending and viral repositories.
+- **Filtering**: Comprehensive filtering options by language, date, stars, and license.
+- **Scoring**: Maintenance score, repository health score, activity score, popularity score, freshness score, and a final weighted ranking.
+
+---
+
 ## Technical DNA
 
 ```
