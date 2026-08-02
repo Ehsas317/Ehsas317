@@ -43,14 +43,7 @@ An evolving exploration into hardware-aware AI orchestration. Six iterations, ea
 
 Supported: 13 languages · 6 scoring dimensions · 286 tests · battle-tested on Twitter, Flask, React, Kubernetes, CPython (58K+ files, zero crashes). Includes extraction scaffolding, security hardening (symlink protection, secret redaction, git filter RCE mitigation).
 
-![Python](https://img.shields.io/badge/Python-blue?logo=python) ![Tests](https://img.shields.io/badge/tests-286-green) ![Languages](https://img.shields.io/badge/languages-13-orange)
-
----
-
-#### [PD-GLM5.2](https://github.com/ehsas317/PD-GLM5.2) · *private*
-`AI Prompt Designer — reverse-engineers vibe-coding prompts from real repos, synthesizes 3 differentiated prompts per idea.`
-
-Features: CLI + Web API + Telegram Bot + Autonomous Agent · GLM/OpenAI/Ollama providers · Self-improve loop · Circuit breaker · Multi-PAT GitHub rotation · Zip input · 88 tests.
+![Python](https://img.shields.io/badge/Python-blue?logo=python) 
 
 ---
 
